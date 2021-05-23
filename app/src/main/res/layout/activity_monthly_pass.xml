@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MonthlyPass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Monthly Pass"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:background="@drawable/edshape"
+            android:textColorHint="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="  Enter bus number"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:background="@drawable/edshape"
+            android:textColorHint="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="  Enter busplate number"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edshape"
+            android:entries="@array/source"
+            android:textColor="@color/maroon"
+            android:textColorHint="@color/maroon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+        <Spinner
+            android:id="@+id/spin1"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/edshape"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/destination"
+            android:textColor="@color/maroon"
+            android:textColorHint="@color/maroon"
+            android:textSize="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edshape"
+                android:hint="  From"
+                android:textColorHint="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/edshape"
+                android:textColorHint="@color/black"
+                android:hint="  To"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn"
+            android:text="Renew"
+            android:backgroundTint="#594C4C"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="View pass"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginBottom="50dp"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+
+</ScrollView>

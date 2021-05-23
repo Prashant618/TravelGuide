@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Travel Guide</string>
+    <string name="google_maps_key">AIzaSyDwaXa3JZsFqv71812tm1k5FokRzLrX0RM</string>
+
+    <string-array name="source">
+        <item>Select source</item>
+        <item>Thane</item>
+        <item>Mulund</item>
+        <item>Nahur</item>
+        <item>Bhandup</item>
+        <item>Kanjurmarg</item>
+        <item>Vikhroli</item>
+        <item>Ghatkopar</item>
+        <item>Vidyavihar</item>
+        <item>Kurla</item>
+        <item>Sion</item>
+        <item>Matunga</item>
+        <item>Dadar</item>
+    </string-array>
+
+    <string-array name="destination">
+        <item>Select destination</item>
+        <item>Dadar</item>
+        <item>Matunga</item>
+        <item>Sion</item>
+        <item>Kurla</item>
+        <item>Vidyavihar</item>
+        <item>Ghatkopar</item>
+        <item>Vikhroli</item>
+        <item>Kanjurmarg</item>
+        <item>Bhandup</item>
+        <item>Nahur</item>
+        <item>Mulund</item>
+        <item>Thane</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>Select Bank</item>
+        <item>State bank of india</item>
+        <item>Union bank of india</item>
+        <item>Kotak bank</item>
+        <item>HDFC bank</item>
+        <item>Indian oversis bank</item>
+    </string-array>
+</resources>
